@@ -1,0 +1,3 @@
+Synthetic output file 1
+Example generated results for the GAAS onboarding pilot.
+This is not input source code.
