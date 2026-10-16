@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -N gaas_setup_smoke
+#PBS -l select=1:ncpus=1
+#PBS -l walltime=00:02:00
+#PBS -j oe
+
+set -eu
+cd "${PBS_O_WORKDIR:?PBS_O_WORKDIR is not set}"
+printf 'GAAS_SETUP_SMOKE_OK host=%s\n' "$(hostname)"

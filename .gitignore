@@ -1,0 +1,7 @@
+# PBS job output files (<job-name>.o<job-id>, <job-name>.e<job-id>)
+*.o[0-9]*
+*.e[0-9]*
+
+# Python
+__pycache__/
+*.pyc
